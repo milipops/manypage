@@ -1,0 +1,98 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm ="using:TestManyPage.ViewModels"
+			 x:DataType="vm:Page2ViewModel"
+             x:Class="TestManyPage.Page2"
+			 >
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<Button Grid.Row="0"
+				Command="{Binding BackToStr}"
+				Width="250"
+				Height="33"
+				HorizontalAlignment="Left"
+				Margin="10">
+			Назад на страницу авторизации
+		</Button>
+
+		<StackPanel Grid.Row="1"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Spacing="20"
+					Width="300">
+
+			<TextBlock Text="Выберите арифметическую операцию"
+					   FontSize="16"
+					   FontWeight="Bold"
+					   HorizontalAlignment="Center"
+					   Margin="0,0,0,10">
+			</TextBlock>
+
+			<ComboBox x:Name="cm1"
+					  ItemsSource="{Binding Varios}"
+					  SelectedItem="{Binding SelectItem}"
+					  Width="260"
+					  HorizontalAlignment="Center"
+					  Padding="5"
+					  Margin="0,0,0,10">
+			</ComboBox>
+
+			<StackPanel Orientation="Horizontal"
+						HorizontalAlignment="Center"
+						Spacing="10">
+				<TextBox Text="{Binding Count}"
+						 Width="100"
+						 HorizontalContentAlignment="Center"
+						 VerticalContentAlignment="Center">
+				</TextBox>
+
+				<TextBlock Text="{Binding selOperToString}"
+						   VerticalAlignment="Center"
+						   FontSize="20"
+						   FontWeight="Bold">
+				</TextBlock>
+
+				<TextBox Text="{Binding Count2}"
+						 Width="100"
+						 HorizontalContentAlignment="Center"
+						 VerticalContentAlignment="Center">
+				</TextBox>
+			</StackPanel>
+
+			<Button Content="Вычислить"
+					Width="120"
+					HorizontalAlignment="Center"
+					Command="{Binding DoOperations}"
+					Margin="0,10,0,0"
+					HorizontalContentAlignment="Center">
+			</Button>
+
+			<StackPanel>
+				<WrapPanel>
+					<TextBlock Text="Результат:  "
+						   FontSize="14"/>
+				<TextBlock Text="{Binding Result}"
+						   Width="120"
+						   VerticalAlignment="Center">
+				</TextBlock>
+				</WrapPanel>
+				
+				<TextBlock Text="Истрия:"
+							FontSize="14"/>
+			</StackPanel>
+
+			<TextBlock Text="{Binding HistoryDisplay}"
+					   Margin="10,0,10,0"
+					   FontSize="14">
+			</TextBlock>
+		</StackPanel>
+	</Grid>
+
+</UserControl>

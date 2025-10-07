@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zhama.DESKTOP-TCOPQJ9\\source\\repos\\manypages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A50331BF-416E-4D96-80F4-32C796776D08}|TestManyPage\\TestManyPage.csproj|c:\\users\\zhama.desktop-tcopqj9\\source\\repos\\manypages\\testmanypage\\views\\page1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A50331BF-416E-4D96-80F4-32C796776D08}|TestManyPage\\TestManyPage.csproj|solutionrelative:testmanypage\\views\\page1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50331BF-416E-4D96-80F4-32C796776D08}|TestManyPage\\TestManyPage.csproj|c:\\users\\zhama.desktop-tcopqj9\\source\\repos\\manypages\\testmanypage\\viewmodels\\page1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50331BF-416E-4D96-80F4-32C796776D08}|TestManyPage\\TestManyPage.csproj|solutionrelative:testmanypage\\viewmodels\\page1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Page1ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zhama.DESKTOP-TCOPQJ9\\source\\repos\\manypages\\TestManyPage\\ViewModels\\Page1ViewModel.cs",
+              "RelativeDocumentMoniker": "TestManyPage\\ViewModels\\Page1ViewModel.cs",
+              "ToolTip": "C:\\Users\\zhama.DESKTOP-TCOPQJ9\\source\\repos\\manypages\\TestManyPage\\ViewModels\\Page1ViewModel.cs",
+              "RelativeToolTip": "TestManyPage\\ViewModels\\Page1ViewModel.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAawOcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:00:41.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Page1.axaml",
+              "DocumentMoniker": "C:\\Users\\zhama.DESKTOP-TCOPQJ9\\source\\repos\\manypages\\TestManyPage\\Views\\Page1.axaml",
+              "RelativeDocumentMoniker": "TestManyPage\\Views\\Page1.axaml",
+              "ToolTip": "C:\\Users\\zhama.DESKTOP-TCOPQJ9\\source\\repos\\manypages\\TestManyPage\\Views\\Page1.axaml",
+              "RelativeToolTip": "TestManyPage\\Views\\Page1.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-11T16:43:52.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

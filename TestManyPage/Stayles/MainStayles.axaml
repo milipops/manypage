@@ -1,0 +1,41 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+
+	<Style Selector="Button">
+		<Setter Property="Foreground" Value="#FFFFFFFF" />
+		<Setter Property="Background" Value="#FFDD4812"/>
+		<Setter Property="BorderBrush" Value="#FFFFFFFF"/>
+		<Setter Property="BorderThickness" Value="2"/>
+		<Setter Property="CornerRadius" Value="5"/>
+	</Style>
+	<Style Selector="Button:pointerover">
+		<Setter Property="Background" Value="#FFB13C0E"/>
+		<Setter Property="BorderBrush" Value="#FFB13C0E"/>
+	</Style>
+	<Style Selector="Button:pressed">
+		<Setter Property="Background" Value="#FF932F0B"/>
+		<Setter Property="BorderBrush" Value="#FF932F0B"/>
+	</Style>
+	
+	
+	<Style Selector="TextBox">
+		<Setter Property="Foreground" Value="#FFFFFFFF"/>
+		<Setter Property="Background" Value="#8f6709"/>
+		<Setter Property="CornerRadius" Value="5"/>
+	</Style>
+
+	
+	<Style Selector="ComboBox">
+		<Setter Property="Foreground" Value="#FFFFFFFF" />
+		<Setter Property="Background" Value="#957203"/>
+	</Style>
+	<Style Selector="ComboBox:pointerover">
+		<Setter Property="Foreground" Value="#FFB13C0E"/>
+		<Setter Property="Background" Value="#957203"/>
+	</Style>
+</Styles>

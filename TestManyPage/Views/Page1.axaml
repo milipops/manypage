@@ -1,0 +1,65 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm ="using:TestManyPage.ViewModels"
+			 x:DataType="vm:Page1ViewModel"
+             x:Class="TestManyPage.Page1"
+			 >
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+
+
+		<StackPanel Grid.Row="1"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Spacing="20"
+					Width="300">
+
+			<TextBlock Text="Авторизация"
+					   FontSize="16"
+					   FontWeight="Bold"
+					   HorizontalAlignment="Center"
+				   Margin="0,0,0,10">
+			</TextBlock>
+
+			<TextBox Text="{Binding GetLogin}" Watermark="Логин">
+			</TextBox>
+
+			<TextBox Text="{Binding GetPassword}" Watermark="Пароль">
+			</TextBox>
+
+			<Button Height="30" Width="100"
+					IsVisible="{Binding IsVisibleLogin}"
+					HorizontalAlignment="Center" Command="{Binding Sucsees}" HorizontalContentAlignment="Center">
+				Вход
+			</Button>
+			<UserControl Content="{Binding Capt}" IsVisible="{Binding isCaptchaVisible}" />
+			<TextBox Width="170" Height="20"
+					 Text="{Binding GetCapcha}"
+					 HorizontalAlignment="Center"
+					 Watermark="Введите капчу"
+					 IsVisible="{Binding isCaptchaVisible} "/>
+
+			<Button Content="Проверить" Width="95" Height="35"
+					IsVisible="{Binding isCaptchaVisible}"
+					HorizontalAlignment="Center" Command="{Binding CheckCapt}"/>
+
+			<TextBlock Text="{Binding CaptchaDebugText}"
+           Foreground="Red"
+           FontWeight="Bold"
+           FontSize="14"
+           HorizontalAlignment="Center"
+           Margin="0,10,0,0"/>
+
+		</StackPanel>
+
+	</Grid>
+
+</UserControl>
